@@ -1,0 +1,16 @@
+initial_theta = zeros(size(X, 2), 1);
+
+
+% Add intercept term to x and X_test
+X = [ones(m, 1) X];
+
+# find index of min value in matrix
+
+[row,column]= find(errors == min(min(errors))) 
+
+
+Read Image into octave
+
+% Load 128x128 color image (bird small.png)
+A = imread('bird small.png');
+
